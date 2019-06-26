@@ -1,0 +1,28 @@
+{
+  "name": "my-personal-site",
+  "version": "1.0.0",
+  "description": "This is my personal site",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "gatsby": "^2.10.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && node ./scripts/deploy-github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undead85/gatsby-personal-site.git"
+  },
+  "author": "undead85",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undead85/gatsby-personal-site/issues"
+  },
+  "homepage": "https://github.com/undead85/gatsby-personal-site#readme"
+}
