@@ -1,0 +1,19 @@
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  .image-container {
+    // border:1px solid red;
+    width: 650px;
+  }
+
+  .content {
+    // border:1px solid blue;
+    padding: 40px 40px;
+
+    h1 {color:#4F5591}
+    h4 {color:#83B5C7}
+  }
+}
+

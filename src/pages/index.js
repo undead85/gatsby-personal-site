@@ -1,3 +1,13 @@
 import React from "react"
+import Layout from "../components/Layout";
+import Jumbotron from "../components/Jumbotron";
 
-export default () => <h1>Hello Gatsby!</h1>
+const MyPage = () => {
+  return (
+      <Layout>
+        <Jumbotron />
+      </Layout>    
+  )
+} 
+
+export default MyPage
