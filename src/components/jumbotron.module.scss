@@ -3,17 +3,40 @@
   justify-content: center;
   align-items: center;
   
-  .image-container {
-    // border:1px solid red;
-    width: 650px;
-  }
-
   .content {
-    // border:1px solid blue;
-    padding: 40px 40px;
+    // border:1px solid blue;    
+    height: 780px;
 
-    h1 {color:#4F5591}
-    h4 {color:#83B5C7}
+
+    div {
+      // border:1px solid red;
+      position: relative;
+      top: 10%;
+      left: 40%;
+
+      h1 {
+        // border:1px solid red;
+        color:white;
+        font-family: 'Trebuchet MS';
+        font-size: 30pt;
+        margin: 0 0 -20px 0;
+        padding: 0;
+      }
+      h2 {
+        color:white;
+        font-family: 'Trebuchet MS';
+        font-size: 30pt;
+        // border:1px solid red;
+        text-align: right;
+      }
+      h4 {
+        color:#F2EBE3;
+        font-family: 'Ink Free';
+        font-size: 27;
+        
+      }
+    }
+
   }
-}
 
+}

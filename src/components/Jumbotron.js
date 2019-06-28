@@ -1,36 +1,38 @@
 import React from 'react'
 import style from './jumbotron.module.scss'
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-
+import BackgroundImage from 'gatsby-background-image'
 
 const Jumbotron = () => {
   const data = useStaticQuery(graphql`
   query {
-    file(relativePath: { eq: "images/big-avatar-1x.png" }) {
+    file(relativePath: { eq: "images/background.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
+        fluid(quality: 90, maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
   }
   `)
   return (
-    <section className={style.container}>
-      <div className={style.imageContainer}>
-        <Img
-          fluid={data.file.childImageSharp.fluid}
-          alt="big avatar"/>
-      </div>
-      <div className={style.content}>
-        <h4>Hi</h4>
-        <h4>I'm</h4>
-        <h1>ANGEL</h1>
-        <h1>MEZA</h1>
-        <h4>a Full-stack Developer</h4>
-      </div>
-    </section>
+
+    <BackgroundImage 
+      Tag="section"
+      className={style.container}
+      fluid={data.file.childImageSharp.fluid}
+      backgroundColor={`#040e18`} >
+        <div className={style.content}>
+          <div>
+          <h4>Hi</h4>
+          <h4>I'm</h4>
+          <h1>ANGEL</h1>
+          <h2>MEZA</h2>
+          <h4>------ a Full-stack Developer</h4>
+          </div>
+        </div>
+      </BackgroundImage>
+
   )
 }
 
