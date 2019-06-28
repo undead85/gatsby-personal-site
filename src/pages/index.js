@@ -7,10 +7,13 @@ const MyPage = () => {
   return (
       <Layout>
         <Helmet>
+          <html lang="en" />
           <title>Angelillo site</title>
           <link 
             href="https://fonts.googleapis.com/css?family=Fira+Sans|Shadows+Into+Light&display=swap"
-            rel="stylesheet" />
+            rel="stylesheet"
+            media="none" 
+            onload="if(media!='all')media='all'" />
         </Helmet>
         <Jumbotron />
       </Layout>    
