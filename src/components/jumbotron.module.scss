@@ -36,7 +36,29 @@
         font-style: normal;
       }
     }
-
   }
+}
 
+@media (max-width: 440px)
+{
+  .container {
+    
+    .content {
+      // height: 780px;
+      div {
+        // border:1px solid red;
+        position: relative;
+        top: 10%;
+        left: 0;
+
+        p,
+        h1,
+        h2 {
+          // border:1px solid red;
+          text-align: center;
+        }
+        
+      }
+    }
+  }
 }
