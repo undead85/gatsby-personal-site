@@ -24,11 +24,11 @@ const Jumbotron = () => {
       backgroundColor={`#040e18`} >
         <div className={style.content}>
           <div>
-          <h4>Hi</h4>
-          <h4>I'm</h4>
-          <h1>ANGEL</h1>
-          <h2>MEZA</h2>
-          <h4>------ a Full-stack Developer</h4>
+            <p>Hi</p>
+            <p>I'm</p>
+            <h1>ANGEL</h1>
+            <h2>MEZA</h2>
+            <p>- a Full-Stack Developer</p>
           </div>
         </div>
       </BackgroundImage>
