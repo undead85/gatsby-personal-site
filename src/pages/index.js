@@ -9,6 +9,7 @@ const MyPage = () => {
         <Helmet>
           <html lang="en" />
           <title>Angelillo site</title>
+          <meta name="description" content="Hi, I am Angel Meza a full-stack developer" />
           <link 
             href="https://fonts.googleapis.com/css?family=Fira+Sans|Shadows+Into+Light&display=swap"
             rel="stylesheet"
