@@ -16,9 +16,9 @@ const Jumbotron = () => {
   }
   `)
   return (
-
+    <section>
     <BackgroundImage 
-      Tag="section"
+      Tag="div"
       className={style.container}
       fluid={data.file.childImageSharp.fluid}
       backgroundColor={`#040e18`} >
@@ -30,9 +30,31 @@ const Jumbotron = () => {
             <h2>MEZA</h2>
             <p>- a Full-Stack Developer</p>
           </div>
+          <div>
+            <p>I have been working with Human Resources and Finance business 
+              for the past 10 years. Now in a dream journey, discovering this 
+              amazing world and his treasures. <br/>
+              <a href="https://www.linkedin.com/in/angelillo85" 
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn
+              </a></p>
+              
+          </div>
         </div>
       </BackgroundImage>
-
+      <div className={style.areaDescription}>
+        <p>I have been working with Human Resources and Finance business 
+              for the past 10 years. Now in a dream journey, discovering this 
+              amazing world and his treasures. <br/>
+              <a href="https://www.linkedin.com/in/angelillo85" 
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn
+              </a>
+        </p>        
+      </div>
+      </section>
   )
 }
 
