@@ -15,6 +15,7 @@ const MyPage = () => {
             rel="stylesheet"
             media="none" 
             onload="if(media!='all')media='all'" />
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
         <Jumbotron />
       </Layout>    
