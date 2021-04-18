@@ -24,16 +24,15 @@ const Jumbotron = () => {
       backgroundColor={`#040e18`} >
         <div className={style.content}>
           <div>
-            <p>Hi</p>
-            <p>I'm</p>
+            {/* <p>Hi</p>
+            <p>I'm</p> */}
             <h1>ANGEL</h1>
             <h2>MEZA</h2>
-            <p>- a Full-Stack Developer</p>
+            <p>- a Software Engineer</p>
           </div>
           <div>
-            <p>I have been working with Human Resources and Finance business 
-              for the past 10 years. Now in a dream journey, discovering this 
-              amazing world and his treasures. <br/>
+            <p>Some dreams come true in this amazing world. Believe it or not, 
+          we are what we want.<br/>
               <a href="https://www.linkedin.com/in/angelillo85" 
                 target="_blank"
                 rel="noopener noreferrer">
@@ -44,9 +43,8 @@ const Jumbotron = () => {
         </div>
       </BackgroundImage>
       <div className={style.areaDescription}>
-        <p>I have been working with Human Resources and Finance business 
-              for the past 10 years. Now in a dream journey, discovering this 
-              amazing world and his treasures. <br/>
+        <p>Some dreams come true in this amazing world. Believe it or not, 
+          we are what we want.<br/>
               <a href="https://www.linkedin.com/in/angelillo85" 
                 target="_blank"
                 rel="noopener noreferrer">
