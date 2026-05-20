@@ -1,0 +1,18 @@
+name: CI demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  angel-job:
+    runs-on: ubuntu-latest
+    steps:
+      - env: 
+          MY_ENV: "este es una variable de entorno"
+        run: |
+          echo $MY_ENV
+          gh repo lists
+
+      
