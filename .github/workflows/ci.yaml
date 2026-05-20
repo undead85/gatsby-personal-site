@@ -13,6 +13,6 @@ jobs:
           MY_ENV: "este es una variable de entorno"
         run: |
           echo $MY_ENV
-          gh repo lists
+          gh status
 
       
