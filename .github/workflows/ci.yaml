@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - env: 
-          MY_ENV: "este es una variable de entorno"
+          MY_ENV: "H E L L O _ E N V *"
         run: |
+          echo "========"
           echo $MY_ENV
-          gh status
+          echo "========"
 
       
