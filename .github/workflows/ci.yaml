@@ -12,8 +12,6 @@ jobs:
       - env: 
           MY_ENV: "H E L L O _ E N V *"
         run: |
-          echo "========"
           echo $MY_ENV
-          echo "========"
 
       
