@@ -3,7 +3,7 @@ name: CI demo
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   angel-job:
