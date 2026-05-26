@@ -11,5 +11,5 @@ ghpages.publish(
     console.log('Deploy Complete!')
   }
 )
-const secret = "dummySecret"
-//console.log(secret)
+
+console.log(secret)
