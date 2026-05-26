@@ -12,4 +12,4 @@ ghpages.publish(
   }
 )
 const secret = "dummySecret"
-console.log(secret)
+//console.log(secret)
