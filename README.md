@@ -1,5 +1,7 @@
 # My personal website built with Gatsby JS
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=angel-poc&metric=alert_status&token=04ebb0c4e34fe7accd0a4b8b93d1f0549b912ec8)](https://sonarcloud.io/summary/new_code?id=angel-poc)
+
 Hi! This is my first adventure into the  [JAMstack](https://jamstack.org/)  world!
 
 ## How to run it?
