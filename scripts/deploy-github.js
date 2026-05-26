@@ -11,5 +11,5 @@ ghpages.publish(
     console.log('Deploy Complete!')
   }
 )
-
-console.log(secret)
+const password="password123"
+console.log(password)
